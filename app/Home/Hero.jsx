@@ -9,7 +9,7 @@ const Hero = () => {
           src="/assets/fondoizquierdo.png"
           alt="fondo izquierdo"
           fill
-          className="object-cover brightness-75"
+          className="object-cover brightness-100"
           priority
         />
       </div>
@@ -20,7 +20,7 @@ const Hero = () => {
           src="/assets/fondoderecho.png"
           alt="fondo derecho"
           fill
-          className="object-cover brightness-75"
+          className="object-cover brightness-100"
           priority
         />
       </div>
@@ -30,7 +30,7 @@ const Hero = () => {
         <Image
           src="/assets/mulbetnonbg.png"
           alt="hero"
-          width={800}
+          width={900}
           height={1000}
           className="object-contain max-w-full px-4 brightness-100"
           priority

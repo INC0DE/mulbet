@@ -6,17 +6,17 @@ const socials = [
   {
     id: 1,
     social: "IG",
-    link: "",
+    link: "https://www.instagram.com/mulbet_oficial/",
   },
   {
     id: 2,
     social: "FB",
-    link: "",
+    link: "https://www.facebook.com/search/top?q=mulbet",
   },
   {
     id: 3,
     social: "TT",
-    link: "",
+    link: "https://www.tiktok.com/@mulbett",
   },
 ];
 
