@@ -24,15 +24,17 @@ const Header = () => {
   ];
   return (
     <Navbar
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="fixed w-full top-0 z-50 bg-black justify-center"
+      className="fixed w-full top-0 z-50 bg-white dark:bg-black shadow-md transition-colors duration-300"
       isBlurred={false}
       shouldHideOnScroll
     >
       <div className="w-full flex justify-center">
         <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+           onClick={() => setIsMenuOpen(prev => !prev)}
+           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+           className="sm:hidden"
         />
         <NavbarContent
           className="hidden sm:flex gap-14 items-center"

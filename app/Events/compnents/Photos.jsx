@@ -2,17 +2,16 @@
 import Image from "next/image";
 
 const topImages = [
-  "/assets/collage/img1.JPG",
-  "/assets/collage/img5.JPG",
-  "/assets/collage/img3.JPG",
-  "/assets/collage/img6.JPG",
+  "/assets/collage/img9.jpeg",
+  "/assets/collage/img10.jpeg",
+  "/assets/collage/img11.jpeg",
 ];
 
 const bottomImages = [
-  "/assets/collage/img2.JPG",
-  "/assets/collage/img4.JPG",
-  "/assets/collage/img7.JPG",
-  "/assets/collage/img8.JPG",
+  "/assets/collage/img12.jpeg",
+  "/assets/collage/img13.jpeg",
+  "/assets/collage/img14.jpeg",
+  "/assets/collage/img15.jpeg",
 ];
 
 const Photos = () => {
